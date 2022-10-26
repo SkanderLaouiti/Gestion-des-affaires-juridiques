@@ -5,7 +5,7 @@
 #include <QMessageBox>
 #include "accuse.h"
 #include "consult.h"
-
+//Test Git
 Delete::Delete(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::Delete)

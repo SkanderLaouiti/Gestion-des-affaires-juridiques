@@ -21,7 +21,7 @@
   <widget class="QFrame" name="Add_Accused">
    <property name="geometry">
     <rect>
-     <x>430</x>
+     <x>230</x>
      <y>40</y>
      <width>551</width>
      <height>531</height>
@@ -57,38 +57,6 @@
     </property>
     <property name="scaledContents">
      <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="add__acc">
-    <property name="geometry">
-     <rect>
-      <x>170</x>
-      <y>430</y>
-      <width>201</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>12</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">*{
-color:white;
-border-radius: 15px;
-background:#303030;
-}
-
-*:hover
-{
-	color:#303030;
-	border-radius:15px;
-	background:white
-}</string>
-    </property>
-    <property name="text">
-     <string>Add</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_9">
@@ -453,6 +421,38 @@ border-bottom:1px solid #717072;
       <string>Female</string>
      </property>
     </item>
+   </widget>
+   <widget class="QPushButton" name="add__acc">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>430</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+color:white;
+border-radius: 15px;
+background:#303030;
+}
+
+*:hover
+{
+	color:#303030;
+	border-radius:15px;
+	background:white
+}</string>
+    </property>
+    <property name="text">
+     <string>Add</string>
+    </property>
    </widget>
   </widget>
  </widget>

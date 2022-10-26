@@ -2,7 +2,7 @@
 #define DIALOG_H
 
 #include <QDialog>
-
+//Test Git
 namespace Ui {
 class Dialog;
 }

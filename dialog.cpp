@@ -7,7 +7,7 @@
 #include <QDate>
 #include <QIntValidator>
 #include <QMessageBox>
-
+//Test Git
 Dialog::Dialog(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::Dialog)

@@ -59,38 +59,6 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="supp_btn">
-    <property name="geometry">
-     <rect>
-      <x>200</x>
-      <y>180</y>
-      <width>201</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>12</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">*{
-color:white;
-border-radius: 15px;
-background:#303030;
-}
-
-*:hover
-{
-	color:#303030;
-	border-radius:15px;
-	background:white
-}</string>
-    </property>
-    <property name="text">
-     <string>Delete</string>
-    </property>
-   </widget>
    <widget class="QLineEdit" name="Lsupp">
     <property name="geometry">
      <rect>
@@ -154,10 +122,42 @@ border-bottom:1px solid #717072;
      <string>ID</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="supp_btn">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>140</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+color:white;
+border-radius: 15px;
+background:#303030;
+}
+
+*:hover
+{
+	color:#303030;
+	border-radius:15px;
+	background:white
+}</string>
+    </property>
+    <property name="text">
+     <string>Delete</string>
+    </property>
+   </widget>
    <zorder>label_8</zorder>
-   <zorder>supp_btn</zorder>
    <zorder>id_supp</zorder>
    <zorder>Lsupp</zorder>
+   <zorder>supp_btn</zorder>
   </widget>
  </widget>
  <resources/>

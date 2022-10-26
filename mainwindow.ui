@@ -117,38 +117,6 @@ background:#303030;
       <bool>true</bool>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_16">
-     <property name="geometry">
-      <rect>
-       <x>420</x>
-       <y>230</y>
-       <width>201</width>
-       <height>51</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>12</pointsize>
-      </font>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">*{
-color:white;
-border-radius: 15px;
-background:#303030;
-}
-
-*:hover
-{
-	color:#303030;
-	border-radius:15px;
-	background:white
-}</string>
-     </property>
-     <property name="text">
-      <string>SEND</string>
-     </property>
-    </widget>
     <widget class="QLineEdit" name="lineEdit_4">
      <property name="geometry">
       <rect>
@@ -282,6 +250,38 @@ background:#303030;
      </property>
      <property name="text">
       <string>List of Accuseds</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_16">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>240</y>
+       <width>201</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">*{
+color:white;
+border-radius: 15px;
+background:#303030;
+}
+
+*:hover
+{
+	color:#303030;
+	border-radius:15px;
+	background:white
+}</string>
+     </property>
+     <property name="text">
+      <string>SEND</string>
      </property>
     </widget>
    </widget>
