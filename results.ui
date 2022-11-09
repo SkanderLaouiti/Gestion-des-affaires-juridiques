@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>results</class>
+ <widget class="QDialog" name="results">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>881</width>
+    <height>576</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+    background:url(C:/Users/MAHOX/OneDrive/Desktop/Images_projet/HMR.jpg) ;
+}</string>
+  </property>
+  <widget class="QFrame" name="UPLD">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>150</y>
+     <width>441</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame
+{
+	background:#51556e;
+    border-radius:15px;
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>350</y>
+      <width>231</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>D:/QTprojet/smart court.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Lid_save">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>60</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="acceptDrops">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+background:transparent;
+border:none;
+color:white;
+border-bottom:1px solid #717072;
+}</string>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="maxLength">
+     <number>32767</number>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Normal</enum>
+    </property>
+    <property name="placeholderText">
+     <string>123456</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="idsave">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>50</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+    font-family:century gothic;
+    font-size:24px;
+	color:white;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="UPLOAD">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>190</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+color:white;
+border-radius: 15px;
+background:#303030;
+}
+
+*:hover
+{
+	color:#303030;
+	border-radius:15px;
+	background:white
+}</string>
+    </property>
+    <property name="text">
+     <string>Upload</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../Images_projet/upload.png</normaloff>../../Images_projet/upload.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>80</width>
+      <height>25</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="L_results">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>130</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="acceptDrops">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+background:transparent;
+border:none;
+color:white;
+border-bottom:1px solid #717072;
+}</string>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="maxLength">
+     <number>32767</number>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Normal</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Aa</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="results_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>120</y>
+      <width>91</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+    font-family:century gothic;
+    font-size:24px;
+	color:white;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Results</string>
+    </property>
+   </widget>
+   <zorder>label_8</zorder>
+   <zorder>idsave</zorder>
+   <zorder>Lid_save</zorder>
+   <zorder>UPLOAD</zorder>
+   <zorder>L_results</zorder>
+   <zorder>results_2</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
