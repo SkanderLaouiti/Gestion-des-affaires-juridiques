@@ -15,82 +15,23 @@
   </property>
   <property name="styleSheet">
    <string notr="true">*{
-    background:url(C:/Users/MAHOX/OneDrive/Desktop/HMR.jpg) ;
+    background:url(C:/Users/MAHOX/OneDrive/Desktop/Images_projet/HMR.jpg) ;
 }</string>
   </property>
-  <widget class="QFrame" name="tab_acc">
+  <widget class="QTableView" name="tab_aff">
    <property name="geometry">
     <rect>
-     <x>190</x>
-     <y>40</y>
-     <width>591</width>
-     <height>481</height>
+     <x>50</x>
+     <y>0</y>
+     <width>851</width>
+     <height>551</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">QFrame
-{
-	background:#51556e;
-    border-radius:15px;
+    <string notr="true">*{
+    background:url(C:/Users/MAHOX/OneDrive/Desktop/Images_projet/HMR.jpg) ;
 }</string>
    </property>
-   <property name="frameShape">
-    <enum>QFrame::StyledPanel</enum>
-   </property>
-   <property name="frameShadow">
-    <enum>QFrame::Raised</enum>
-   </property>
-   <widget class="QLabel" name="label_8">
-    <property name="geometry">
-     <rect>
-      <x>490</x>
-      <y>350</y>
-      <width>231</width>
-      <height>171</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>D:/QTprojet/smart court.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="afficher_acc">
-    <property name="geometry">
-     <rect>
-      <x>180</x>
-      <y>200</y>
-      <width>201</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>12</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">*{
-color:white;
-border-radius: 15px;
-background:#303030;
-}
-
-*:hover
-{
-	color:#303030;
-	border-radius:15px;
-	background:white
-}</string>
-    </property>
-    <property name="text">
-     <string>Display</string>
-    </property>
-   </widget>
   </widget>
  </widget>
  <resources/>

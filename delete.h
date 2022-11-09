@@ -1,5 +1,6 @@
 #ifndef DELETE_H
 #define DELETE_H
+#include "accuse.h"
 
 #include <QDialog>
 
@@ -22,6 +23,7 @@ private slots:
 
 private:
     Ui::Delete *ui;
+    Accuse A;
 };
 
 #endif // DELETE_H

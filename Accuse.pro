@@ -1,5 +1,6 @@
 QT       += core gui
 QT += sql
+QT += gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -22,8 +23,14 @@ SOURCES += \
     consult.cpp \
     delete.cpp \
     dialog.cpp \
+    mail.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    modify.cpp \
+    qrcode.cpp \
+    recherche.cpp \
+    results.cpp \
+    tri.cpp
 
 HEADERS += \
     accuse.h \
@@ -31,13 +38,25 @@ HEADERS += \
     consult.h \
     delete.h \
     dialog.h \
-    mainwindow.h
+    mail.h \
+    mainwindow.h \
+    modify.h \
+    qrcode.h \
+    recherche.h \
+    results.h \
+    tri.h
 
 FORMS += \
     consult.ui \
     delete.ui \
     dialog.ui \
-    mainwindow.ui
+    mail.ui \
+    mainwindow.ui \
+    modify.ui \
+    qrcode.ui \
+    recherche.ui \
+    results.ui \
+    tri.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

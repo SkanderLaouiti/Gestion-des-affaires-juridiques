@@ -6,7 +6,10 @@
 #include <QLabel>
 #include <QDate>
 #include <QIntValidator>
+#include <QValidator>
 #include <QMessageBox>
+#include <QRegularExpressionValidator>
+
 //Test Git
 Dialog::Dialog(QWidget *parent) :
     QDialog(parent),
@@ -14,6 +17,12 @@ Dialog::Dialog(QWidget *parent) :
 {
     ui->setupUi(this);
     ui->Lid->setValidator(new QIntValidator(0,99999999,this));
+    ui->Lname->setInputMask("aaaaaaaaaaaaaaaaaaa");
+        ui->Lname->setCursorPosition(0);
+        ui->Llastname->setInputMask("aaaaaaaaaaaaaaaaaaa");
+        ui->Lacc_cause->setInputMask("aaaaaaaaaaaaaaaaaaa");
+
+
 }
 
 Dialog::~Dialog()
@@ -37,17 +46,20 @@ void Dialog::on_add__acc_clicked()
 
    Accuse A(id,name,lastname,gender,Date_B,acc_cause,Date_S);
 
-   bool test=A.Ajouter();
-   QMessageBox msgBox;
 
-   if(test)
+
+
+   if(A.Ajouter())
    {
-       msgBox.setText("Ajout avec success");
-      //ui->Add_Accused->setModel(A.afficher());
-   }
-   else
-       msgBox.setText("Echec de l'ajout ");
-       msgBox.exec();
 
+       QMessageBox::information(nullptr, QObject::tr("database is open"),
+                       QObject::tr("Added successfully.\n"
+                                   "Click Cancel to exit."), QMessageBox::Cancel);}
+
+
+       else
+          { QMessageBox::critical(nullptr, QObject::tr("database is not open"),
+                       QObject::tr("Add failed \n"
+                                   "Click Cancel to exit."), QMessageBox::Cancel);}
 
 }

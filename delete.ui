@@ -15,7 +15,7 @@
   </property>
   <property name="styleSheet">
    <string notr="true">*{
-    background:url(C:/Users/MAHOX/OneDrive/Desktop/HMR.jpg) ;
+    background:url(C:/Users/MAHOX/OneDrive/Desktop/Images_projet/HMR.jpg) ;
 }</string>
   </property>
   <widget class="QFrame" name="supprimer">

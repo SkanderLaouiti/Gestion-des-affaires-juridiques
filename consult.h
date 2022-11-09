@@ -17,16 +17,17 @@ public:
     explicit Consult(QWidget *parent = nullptr);
     ~Consult();
 
-        Accuse A;
+       // Accuse A;
 
 
 private slots:
 
 
-        void on_afficher_acc_clicked();
+
 
 private:
     Ui::Consult *ui;
+    Accuse A;
 };
 
 #endif // CONSULT_H
